@@ -1,0 +1,69 @@
+\documentclass[letterpaper,10pt,oneside,final,openbib]{memoir} %letterpaper->ebook %draft->final(ms) %showtrims shows corner marks so remove when final
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}%needs to be last %colorlinks=false before printing
+
+\hypersetup{bookmarkstype=toc,pdfpagemode=UseOutlines,pdftitle={My Notes},pdfauthor={Shaked Elisha}}
+
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+
+
+
+\newcommand{\ud}{\,\mathrm{d}}
+
+
+\pagestyle{plain}%headings%empty
+
+
+
+\title{Notes from Textbook}
+\author{Shaked Elisha\thanks{ty fam and teaches}}
+\date{\today\thanks{Created on December 22, 2017}}
+
+
+\makeindex
+
+%As the article class does not know about chapters, it is quite easy to add articles as chapters to a book. 
+
+
+
+\begin{document}
+\maketitle
+
+\frontmatter
+
+\tableofcontents
+
+\mainmatter
+
+
+\part{STAT 1000: Introduction to Statistics~\texorpdfstring{\cite{intstat}}{}}
+\chapter{chap1}
+
+
+ 
+
+\appendix
+\chapter{title}
+
+\backmatter
+
+\listoffigures
+\listoftables
+
+
+\begin{thebibliography}{200}
+	\bibitem{intstat} David S. Moore, George P. McCabe, Bruce A. Craig. \emph{Introduction to the Practice of Statistics}, W. H. Freeman and Company, New York, New York, sixth edition, 2009, ISBN-10: 1-4292-1622-0
+\end{thebibliography}
+
+\printindex
+
+\end{document}

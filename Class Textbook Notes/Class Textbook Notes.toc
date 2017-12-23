@@ -1,0 +1,8 @@
+\select@language {english}
+\contentsline {chapter}{Contents}{i}{section*.1}
+\contentsline {part}{\partnumberline {I}STAT 1000: Introduction to Statistics~\cite {intstat}}{1}{part.1}
+\contentsline {chapter}{\chapternumberline {1}chap1}{2}{chapter.1}
+\contentsline {appendix}{\chapternumberline {A}title}{3}{appendix.A}
+\contentsline {chapter}{List of Figures}{4}{section*.3}
+\contentsline {chapter}{List of Tables}{4}{section*.4}
+\contentsline {chapter}{Bibliography}{5}{section*.6}
